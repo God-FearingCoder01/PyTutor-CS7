@@ -18,3 +18,8 @@ docker run -d -p 8003:8003 pytutor
 ```
 
 Access the instance on [http://localhost:8003/visualize.html](http://localhost:8003/visualize.html)
+
+# Additions
+## 🔥 Enhanced Features
+- Auto-opens browser on server start (port 8003)
+- Python 3 compatibility fixes
