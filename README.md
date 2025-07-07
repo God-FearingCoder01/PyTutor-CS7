@@ -11,7 +11,7 @@ A locally-hosted version of Python Tutor for environment diagram visualization, 
 
 ## 🚀 Quick Start
 
-1. Clone the repository
+1. Clone the repository and ***cd*** into the *v5-unity* directory
     ```bash
     git clone https://github.com/God-FearingCoder01/PyTutor-CS7.git
     cd PyTutor-CS7/v5-unity
@@ -28,14 +28,13 @@ A locally-hosted version of Python Tutor for environment diagram visualization, 
     ```bash
     npm start
     ```
-    Your browser should automatically opn to 
+    Your browser should automatically open to 
     ```text
     http://localhost:8003/visualize.html
     ```
 
 # 📚 Usage Guide
 
-* Click on the underlined words, **Python Tutor**
 * Write your python code in the editor
 * Click "Visualize Execution" to see environment diagrams
 * Use the Next/Prev buttons to step through execution
@@ -43,8 +42,8 @@ A locally-hosted version of Python Tutor for environment diagram visualization, 
 # 🛠 Techinical Details
 
 + **Port:** 8003 (configuarble in bottle_server.py)
-+ **Tested with: ***
-    * Python 11.1.1
++ **Tested with:**  
+    * Python 3.11.1
     * Node.js 22.17.0
     * Chrome browser
     * Windows 10 Computer (64-bit)
@@ -58,4 +57,4 @@ This fork was made possible by:
 - Adaptations for Emzini We Code community
 
 
-> Forked from [@seamile's repo](https://github.com/seamile/PyTutor.git), which was based on @pgbovine's now-private Python Tutor.
+> CS7 = "uzvambukile lo office_hour" 
