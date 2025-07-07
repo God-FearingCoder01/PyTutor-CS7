@@ -54,11 +54,25 @@ This fork was made possible by:
 
 - Original work by [@pgbovine](https://github.com/pgbovine)
 - Previous fork by [@seamile](https://github.com/seamile)
-- Adaptations for Emzini We Code community
-
+- Adaptations for Emzini We Code community  
 
 🌍 **Offline. Open. For Everyone.**  
 *Because great CS education shouldn't depend on an internet connection.*  
 
 🚀 **Happy Coding!**
 > *Zvambuka lomyaka* :laughing:    
+
+***
+## 🏛️ Repository Status  
+🔒 **Public Archive**  
+This repository is archived as a stable reference for:  
+- CS7 students studying environment diagrams  
+- Offline Python Tutor implementations  
+- Educational fork preservation  
+
+While you can **fork** and **clone**, please note:  
+- No active maintenance or PRs will be merged   
+- Frozen as of {July 2025} 
+- For active development, see [@pgbovine's latest work](https://pythontutor.com/)  
+
+> *Adapted for environment diagrams: "Debugging is understanding the gap between intention and implementation."*
