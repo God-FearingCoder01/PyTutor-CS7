@@ -59,5 +59,6 @@ This fork was made possible by:
 
 🌍 **Offline. Open. For Everyone.**  
 *Because great CS education shouldn't depend on an internet connection.*  
+
 🚀 **Happy Learnig!**
 > *Zvambuka lomyaka* :laughing:    
