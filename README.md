@@ -19,11 +19,9 @@ A locally-hosted version of Python Tutor for environment diagram visualization, 
 2. Install dependencies
     ```bash
     npm install
-    ```
-    Or if you don't have npm
-    ```bash
     pip install bottle
     ```
+    
 3. Start the server
     ```bash
     npm start
