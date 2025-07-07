@@ -15,22 +15,22 @@ A locally-hosted version of Python Tutor for environment diagram visualization, 
     ```bash
     git clone https://github.com/God-FearingCoder01/PyTutor-CS7.git
     ```
-2. **cd** into the *v5-unity* directory
+2. *cd* into the *v5-unity* directory
     ```bash
     cd PyTutor-CS7/v5-unity
     ```
-2. Install dependencies
+3. Install dependencies
     ```bash
     npm install
     ```
     requires you to already have node.js installed in your computer
 
-    Alternatively
+    *Alternatively*
     ```bash
     pip install bottle
     ```
     
-3. Start the server
+4. Start the server
     ```bash
     npm start
     ```
@@ -40,7 +40,7 @@ A locally-hosted version of Python Tutor for environment diagram visualization, 
     py bottle_server.py
     ```
     
-    Your browser should automatically open to 
+5. (Nothing for you to do here) Your browser should automatically open to 
     ```text
     http://localhost:8003/visualize.html
     ```
