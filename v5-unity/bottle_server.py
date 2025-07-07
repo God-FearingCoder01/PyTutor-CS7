@@ -18,7 +18,13 @@ except:
     import io as StringIO # py3
 import json
 import pg_logger
+import webbrowser
+import threading
 
+# Serves the main page
+@route('/')
+def index():
+   return static_file('index.html', root='.')
 
 @route('/web_exec_<name:re:.+>.py')
 @route('/LIVE_exec_<name:re:.+>.py')
@@ -30,8 +36,9 @@ import pg_logger
 def dummy_ok(name=None):
     return 'OK'
 
+# Serve static files (JS/CSS)
 @route('/<filepath:path>')
-def index(filepath):
+def static(filepath):
     return static_file(filepath, root='.')
 
 
@@ -62,4 +69,8 @@ def get_py_exec():
 
 
 if __name__ == "__main__":
+    def open_browser():
+       webbrowser.open_new('http://localhost:8003/')
+
+    threading.Timer(1, open_browser).start() # Waits 1 second before openning
     run(host='0.0.0.0', port=8003, reloader=True)
