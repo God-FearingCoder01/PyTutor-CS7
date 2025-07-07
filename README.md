@@ -57,4 +57,7 @@ This fork was made possible by:
 - Adaptations for Emzini We Code community
 
 
-> CS7 = "uzvambukile lo office_hour" 
+🌍 **Offline. Open. For Everyone.**  
+*Because great CS education shouldn't depend on an internet connection.*  
+🚀 **Happy Learnig!**
+> *Zvambuka lomyaka* :laughing:    
