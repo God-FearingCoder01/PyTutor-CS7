@@ -23,7 +23,9 @@ A locally-hosted version of Python Tutor for environment diagram visualization, 
     ```bash
     npm install
     ```
+    requires you to already have node.js installed in your computer
 
+    Alternatively
     ```bash
     pip install bottle
     ```
@@ -32,6 +34,12 @@ A locally-hosted version of Python Tutor for environment diagram visualization, 
     ```bash
     npm start
     ```
+
+    OR (if you chose alternative route in step 3.)
+    ```bash
+    py bottle_server.py
+    ```
+    
     Your browser should automatically open to 
     ```text
     http://localhost:8003/visualize.html
