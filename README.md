@@ -1,28 +1,61 @@
-# PyTutor
+# PyTutor Offline for CS7
 
-This repository is copies from the [OnlinePythonTutor](https://github.com/pgbovine/OnlinePythonTutor) project.
+A locally-hosted version of Python Tutor for environment diagram visualization, adapted for Emzini We Code students studying CS7: Introduction to Computer Science and Programming.  
 
-The author is [Philip Guo](https://pg.ucsd.edu/). And the official website is <https://pythontutor.com/>.
+> 📌 **Note:** This is a maintained fork of the original [OnlinePythonTutor](https://github.com/pgbovine/OnlinePythonTutor) by [Philip Guo](https://pg.ucsd.edu), whose repository is now private.
 
-I just add a dockerfile, that you can deploy the pytutor in a container.
+## ✨ Enhanced Features
+- **Auto-launches browser** when server starts
+- **Python 3.x compatibility** fixes
+- **Offline-capable** for uninterrupted study sessions
 
-You can visit my demo here: [PyTutor](http://pytutor.seamile.cn/visualize.html).
+## 🚀 Quick Start
 
-## Usage
+1. Clone the repository
+    ```bash
+    git clone https://github.com/God-FearingCoder01/PyTutor-CS7.git
+    cd PyTutor-CS7/v5-unity
+    ```
+2. Install dependencies
+    ```bash
+    npm install
+    ```
+    Or if you don't have npm
+    ```bash
+    pip install bottle
+    ```
+3. Start the server
+    ```bash
+    npm start
+    ```
+    Your browser should automatically opn to 
+    ```text
+    http://localhost:8003/visualize.html
+    ```
 
-```shell
-git pull https://github.com/seamile/PyTutor.git
-cd PyTutor
-docker build -t pytutor:latest .
-docker run -d -p 8003:8003 pytutor
-```
+# 📚 Usage Guide
 
-Access the instance on [http://localhost:8003/visualize.html](http://localhost:8003/visualize.html)
+* Click on the underlined words, **Python Tutor**
+* Write your python code in the editor
+* Click "Visualize Execution" to see environment diagrams
+* Use the Next/Prev buttons to step through execution
 
-# Additions
-## 🔥 Enhanced Features
-- Auto-opens browser on server start (port 8003)
-- Python 3 compatibility fixes
+# 🛠 Techinical Details
+
++ **Port:** 8003 (configuarble in bottle_server.py)
++ **Tested with: ***
+    * Python 11.1.1
+    * Node.js 22.17.0
+    * Chrome browser
+    * Windows 10 Computer (64-bit)
+
+# 🙏 Attribution
+
+This fork was made possible by:  
+
+- Original work by [@pgbovine](https://github.com/pgbovine)
+- Previous fork by [@seamile](https://github.com/seamile)
+- Adaptations for Emzini We Code community
 
 
 > Forked from [@seamile's repo](https://github.com/seamile/PyTutor.git), which was based on @pgbovine's now-private Python Tutor.
