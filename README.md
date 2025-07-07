@@ -1,4 +1,4 @@
-# PyTutor Offline for CS7
+# Offline Python Tutor for CS7
 
 A locally-hosted version of Python Tutor for environment diagram visualization, adapted for Emzini We Code students studying CS7: Introduction to Computer Science and Programming.  
 
@@ -11,14 +11,20 @@ A locally-hosted version of Python Tutor for environment diagram visualization, 
 
 ## 🚀 Quick Start
 
-1. Clone the repository and ***cd*** into the *v5-unity* directory
+1. Clone the repository  
     ```bash
     git clone https://github.com/God-FearingCoder01/PyTutor-CS7.git
+    ```
+2. **cd** into the *v5-unity* directory
+    ```bash
     cd PyTutor-CS7/v5-unity
     ```
 2. Install dependencies
     ```bash
     npm install
+    ```
+
+    ```bash
     pip install bottle
     ```
     
