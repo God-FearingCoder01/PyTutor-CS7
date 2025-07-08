@@ -80,7 +80,7 @@ PYTUTOR_HIDE_STR = '#pythontutor_hide:'
 # - also accepts shell globs, just like PYTUTOR_HIDE_STR
 PYTUTOR_INLINE_TYPE_STR = '#pythontutor_hide_type:'
 
-CLASS_RE = re.compile('class\s+')
+CLASS_RE = re.compile(r'class\s+')  # Added 'r' prefix to get rid of warnings message on server start
 
 # copied-pasted from translate() in https://github.com/python/cpython/blob/2.7/Lib/fnmatch.py
 def globToRegex(pat):
@@ -117,7 +117,7 @@ def globToRegex(pat):
                 res = '%s[%s]' % (res, stuff)
         else:
             res = res + re.escape(c)
-    return res + '\Z(?ms)'
+    return res + r'\Z(?ms)' # Added 'r' prefix to avoid warning message on server start-up
 
 def compileGlobMatch(pattern):
     # very important to use match and *not* search!
