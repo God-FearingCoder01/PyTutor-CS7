@@ -31,7 +31,11 @@
 # NB: try to import the minimal amount of stuff in this module to lessen
 # the security attack surface
 
-import imp
+try:
+  from importlib import util as imp # Python 3.4+
+except ImportError:
+  import imp  # Fallback for Python2
+
 import sys
 import bdb # the KEY import here!
 import re
