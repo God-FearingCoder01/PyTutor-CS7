@@ -22,9 +22,9 @@ import webbrowser
 import threading
 
 # Serves the main page
-@route('/')
-def index():
-   return static_file('index.html', root='.')
+#@route('/')
+#def index():
+#   return static_file('visualize.html#mode=edit', root='.')
 
 @route('/web_exec_<name:re:.+>.py')
 @route('/LIVE_exec_<name:re:.+>.py')
@@ -70,7 +70,7 @@ def get_py_exec():
 
 if __name__ == "__main__":
     def open_browser():
-       webbrowser.open_new('http://localhost:8003/')
+       webbrowser.open_new('http://localhost:8003/visualize.html#mode=edit')
 
     threading.Timer(1, open_browser).start() # Waits 1 second before openning
-    run(host='0.0.0.0', port=8003, reloader=True)
+    run(host='0.0.0.0', port=8003, reloader=False)
