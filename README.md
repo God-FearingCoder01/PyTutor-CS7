@@ -9,13 +9,15 @@ A locally-hosted version of Python Tutor for environment diagram visualization, 
 - **Python 3.x compatibility** fixes
 - **Offline-capable** for uninterrupted study sessions
 
-## 🚀 Quick Start
+## 🚀 Quick Start  
+
+    **NB:** All the following are to be executed on git bash terminal, HOME (~) directory would be fine!
 
 1. Clone the repository  
     ```bash
     git clone https://github.com/God-FearingCoder01/PyTutor-CS7.git
     ```
-2. *cd* into the *v5-unity* directory
+2. **cd** into the **PyTutor-CS7/v5-unity** directory
     ```bash
     cd PyTutor-CS7/v5-unity
     ```
@@ -23,7 +25,7 @@ A locally-hosted version of Python Tutor for environment diagram visualization, 
     ```bash
     npm install
     ```
-    requires you to already have node.js installed in your computer
+    requires you to already have **node.js** installed in your computer.
 
     *Alternatively*
     ```bash
@@ -35,7 +37,7 @@ A locally-hosted version of Python Tutor for environment diagram visualization, 
     npm start
     ```
 
-    OR (if you chose alternative route in step 3.)
+    *OR (if you chose alternative route in step 3.)*
     ```bash
     py bottle_server.py
     ```
