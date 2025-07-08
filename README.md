@@ -57,9 +57,9 @@ A locally-hosted version of Python Tutor for environment diagram visualization, 
 
 + **Port:** 8003 (configuarble in bottle_server.py)
 + **Tested with:**  
-    * Python 3.11.1
-    * Node.js 22.17.0
-    * Chrome browser
+    * Python 3.11+
+    * Node.js v22.17.0
+    * Chrome/Edge browsers
     * Windows 10 Computer (64-bit)
 
 # 🙏 Attribution
